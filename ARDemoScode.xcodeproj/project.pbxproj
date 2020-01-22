@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225049D823D39B9E00A95F9D /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 225049D723D39B9E00A95F9D /* toy_biplane.usdz */; };
 		2252830923D30D2100294A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252830823D30D2100294A57 /* AppDelegate.swift */; };
 		2252830B23D30D2100294A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252830A23D30D2100294A57 /* ViewController.swift */; };
-		2252830D23D30D2100294A57 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2252830C23D30D2100294A57 /* Experience.rcproject */; };
 		2252831023D30D2100294A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2252830E23D30D2100294A57 /* Main.storyboard */; };
 		2252831223D30D2600294A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2252831123D30D2600294A57 /* Assets.xcassets */; };
 		2252831523D30D2600294A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2252831323D30D2600294A57 /* LaunchScreen.storyboard */; };
 		2252832023D30D2700294A57 /* ARDemoScodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252831F23D30D2700294A57 /* ARDemoScodeTests.swift */; };
 		2252832B23D30D2700294A57 /* ARDemoScodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252832A23D30D2700294A57 /* ARDemoScodeUITests.swift */; };
+		2252833923D3158F00294A57 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2252833823D3158F00294A57 /* toy_robot_vintage.usdz */; };
+		229AEB2F23D316F900807D7B /* toy_robot_vintage.usdz in Sources */ = {isa = PBXBuildFile; fileRef = 2252833823D3158F00294A57 /* toy_robot_vintage.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225049D723D39B9E00A95F9D /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
 		2252830523D30D2100294A57 /* ARDemoScode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemoScode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2252830823D30D2100294A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2252830A23D30D2100294A57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2252830C23D30D2100294A57 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		2252830F23D30D2100294A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2252831123D30D2600294A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2252831423D30D2600294A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		2252832623D30D2700294A57 /* ARDemoScodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDemoScodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2252832A23D30D2700294A57 /* ARDemoScodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDemoScodeUITests.swift; sourceTree = "<group>"; };
 		2252832C23D30D2700294A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2252833823D3158F00294A57 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +104,8 @@
 			children = (
 				2252830823D30D2100294A57 /* AppDelegate.swift */,
 				2252830A23D30D2100294A57 /* ViewController.swift */,
-				2252830C23D30D2100294A57 /* Experience.rcproject */,
+				225049D723D39B9E00A95F9D /* toy_biplane.usdz */,
+				2252833823D3158F00294A57 /* toy_robot_vintage.usdz */,
 				2252830E23D30D2100294A57 /* Main.storyboard */,
 				2252831123D30D2600294A57 /* Assets.xcassets */,
 				2252831323D30D2600294A57 /* LaunchScreen.storyboard */,
@@ -232,6 +236,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2252833923D3158F00294A57 /* toy_robot_vintage.usdz in Resources */,
+				225049D823D39B9E00A95F9D /* toy_biplane.usdz in Resources */,
 				2252831523D30D2600294A57 /* LaunchScreen.storyboard in Resources */,
 				2252831223D30D2600294A57 /* Assets.xcassets in Resources */,
 				2252831023D30D2100294A57 /* Main.storyboard in Resources */,
@@ -259,9 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229AEB2F23D316F900807D7B /* toy_robot_vintage.usdz in Sources */,
 				2252830B23D30D2100294A57 /* ViewController.swift in Sources */,
 				2252830923D30D2100294A57 /* AppDelegate.swift in Sources */,
-				2252830D23D30D2100294A57 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
